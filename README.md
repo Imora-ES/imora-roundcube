@@ -15,6 +15,19 @@ Modo oscuro nativo, paleta de marca y logos propios, listo para producción.
 
 ---
 
+## Capturas de pantalla
+
+| Modo claro | Modo oscuro |
+|---|---|
+| ![Login, modo claro](docs/capturas/login-light.png) | ![Login, modo oscuro](docs/capturas/login-dark.png) |
+| ![Bandeja de entrada, modo claro](docs/capturas/bandeja-light.png) | ![Bandeja de entrada, modo oscuro](docs/capturas/bandeja-dark.png) |
+| ![Redactar, modo claro](docs/capturas/redactar-light.png) | ![Redactar, modo oscuro](docs/capturas/redactar-dark.png) |
+| ![Configuración, modo claro](docs/capturas/ajustes-light.png) | ![Configuración, modo oscuro](docs/capturas/ajustes-dark.png) |
+
+Hechas con Roundcube 1.6.11 en Docker y correos de ejemplo.
+
+---
+
 ## Características
 
 - **Paleta de Imora**: azul marino `#1e3a5f` de la marca, acento lima `#a8d93a` del punto del logo y menú lateral en marino profundo.
@@ -50,9 +63,9 @@ Toda la marca está en las variables `@br-*` al principio de `styles/_styles.les
 imora-roundcube/
 ├── images/               # Logos y assets gráficos
 │   ├── logo.png          # Logo principal (login, modo claro)
-│   ├── logo-dark.png     # Logo para modo oscuro y menú lateral
+│   ├── logo-dark.png     # Logo para el login en modo oscuro
 │   ├── logo-small.png    # Logo reducido (modo claro)
-│   ├── logo-small-dark.png
+│   ├── logo-small-dark.png  # Logo del menú lateral
 │   └── favicon.ico
 ├── styles/
 │   ├── _styles.less      # ★ Overrides de marca (variables @br-*)
@@ -61,6 +74,7 @@ imora-roundcube/
 │   ├── styles.less       # Punto de entrada principal
 │   └── styles.min.css    # CSS compilado y minificado
 ├── templates/            # Plantillas HTML de Roundcube
+├── docs/capturas/        # Capturas del tema
 ├── fonts/                # Roboto + FontAwesome 5
 ├── deps/                 # Bootstrap 4 bundle
 └── meta.json             # Metadatos del skin

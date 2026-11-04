@@ -38,18 +38,16 @@
   }
   #logo {
     max-height: 130px;
-    filter: drop-shadow(0 10px 28px fadeout(@br-primary, 75%));
   }
 }
 
-html.dark-mode .task-login {
-  #layout-content {
-    background: @br-dark-bg;
-  }
-  #logo {
-    content: url(../images/logo-dark.png);
-    filter: none;
-  }
+html.dark-mode body.task-login,
+html.dark-mode .task-login #layout,
+html.dark-mode .task-login #layout-content {
+  background: @br-dark-bg !important;
+}
+html.dark-mode .task-login #logo {
+  content: url(../images/logo-dark.png);
 }
 
 #login-form .btn-primary {
@@ -267,6 +265,16 @@ html.dark-mode {
   body,
   #layout {
     background-color: @br-dark-bg;
+  }
+
+  #layout-menu,
+  #layout-menu .popover-header,
+  #layout-menu .special-buttons {
+    background: @br-dark-menu-bg !important;
+  }
+
+  #layout-menu .special-buttons a:not(:focus) {
+    background: @br-dark-menu-bg;
   }
 
   #layout-sidebar,
