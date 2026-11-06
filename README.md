@@ -10,6 +10,7 @@ Modo oscuro nativo, paleta de marca y logos propios, listo para producción.
 [![License: CC BY-SA 3.0](https://img.shields.io/badge/License-CC%20BY--SA%203.0-1e3a5f?style=flat-square)](http://creativecommons.org/licenses/by-sa/3.0/)
 [![Roundcube](https://img.shields.io/badge/Roundcube-1.7.5-0f2440?style=flat-square)](https://roundcube.net/)
 [![Based on Elastic](https://img.shields.io/badge/Based%20on-Elastic%20Skin-a8d93a?style=flat-square)](https://github.com/roundcube/roundcubemail/tree/master/skins/elastic)
+![Visitas](https://visitor-badge.laobi.icu/badge?page_id=Imora-ES.imora-roundcube&left_text=visitas&right_color=%231e3a5f)
 
 </div>
 
